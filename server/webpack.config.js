@@ -3,6 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 const cleanPlugin = new CleanWebpackPlugin();
+
 const htmlPlugin = new HtmlWebpackPlugin({
   template: "./src/index.html",
   filename: "./index.html"
